@@ -1,33 +1,32 @@
 <?php
 /**
- * WordPress Widget Boilerplate
+ * Bible Verses
  *
  * The WordPress Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
  *
- * @package   Widget_Name
- * @author    Your Name <email@example.com>
+ * @package   BibleVerses
+ * @author    Joel James <mail@cjoel.com>
  * @license   GPL-2.0+
- * @link      http://example.com
- * @copyright 2014 Your Name or Company Name
+ * @link      http://duckdev.com
+ * @copyright 2017 Joel James
  *
  * @wordpress-plugin
- * Plugin Name:       @TODO
- * Plugin URI:        @TODO
- * Description:       @TODO
- * Version:           1.0.0
- * Author:            @TODO
- * Author URI:        @TODO
- * Text Domain:       widget-name
+ * Plugin Name:       Bible Verses
+ * Plugin URI:        https://wordpress.org/plugins/bible-verses/
+ * Description:       Providing you a beautiful random Bible Verses widget.
+ * Version:           2.0.0
+ * Author:            Joel James
+ * Author URI:        https://duckdev.com/
+ * Donate link:       https://paypal.me/JoelCJ
+ * Text Domain:       bible-verses
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /lang
- * GitHub Plugin URI: https://github.com/<owner>/<repo>
+ * GitHub Plugin URI: https://github.com/Joel-James/bible-verses
  */
  
  // Prevent direct file access
-if ( ! defined ( 'ABSPATH' ) ) {
-	exit;
-}
+defined ( 'ABSPATH' ) or exit;
 
 // TODO: change 'Widget_Name' to the name of your plugin
 class Widget_Name extends WP_Widget {
